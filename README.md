@@ -25,25 +25,5 @@ Bước 3: Class Diagram hoàn chỉnh
 
 Bạn có thể vẽ trên draw.io như sau:
 
-+----------------------------+
-|          Customer          |
-+----------------------------+
-| - customerId: String       |
-| - fullName: String         |
-| - phoneNumber: String      |
-+----------------------------+
-| + placeOrder(): void       |
-+----------------------------+
-              1
-              |
-              | Association
-              |
-            0..*
-+----------------------------+
-|           Order            |
-+----------------------------+
-| - orderId: String          |
-| - createdDate: Date        |
-+----------------------------+
-| + calculateTotal(): double |
-+----------------------------+
+<img width="1145" height="353" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/2b44338c-1b4b-4e15-a675-415cbfef690c" />
+
